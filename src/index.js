@@ -1,5 +1,4 @@
 import * as FlexPlugin from 'flex-plugin';
+import SamplePlugin from './SamplePlugin';
 
-import DemoTsPlugin from './DemoTsPlugin';
-
-FlexPlugin.loadPlugin(DemoTsPlugin);
+FlexPlugin.loadPlugin(SamplePlugin);
