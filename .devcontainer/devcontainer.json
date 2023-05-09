@@ -1,0 +1,25 @@
+{
+  "image": "zingdev/devcontainer-node:16-base",
+  "remoteUser": "vscode",
+  "features": {
+    "ghcr.io/zingdevlimited/dev-containers/zing-twilio-cli": {
+      "version": "5.4.0-1",
+      "flex": "6",
+      "serverless": "3"
+    },
+    "ghcr.io/jckimble/devcontainer-features/ngrok:3": {}
+  },
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "SonarSource.sonarlint-vscode",
+        "yzhang.markdown-all-in-one",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
