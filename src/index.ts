@@ -1,5 +1,5 @@
 import * as FlexPlugin from "@twilio/flex-plugin";
 
-import {{ name}}Plugin from "./{{ name}}Plugin";
+import {{pluginClassName}} from "./{{pluginClassName}}";
 
-FlexPlugin.loadPlugin({{ name}}Plugin);
+FlexPlugin.loadPlugin({{pluginClassName}});

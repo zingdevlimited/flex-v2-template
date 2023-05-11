@@ -2,12 +2,12 @@ import React from "react";
 import * as Flex from "@twilio/flex-ui";
 import { FlexPlugin } from "@twilio/flex-plugin";
 import { CustomizationProvider } from "@twilio-paste/customization";
-import { registerEssentialsSettingPage } from "./components/{{ name}}Settings";
+import { registerEssentialsSettingPage } from "./components/{{pluginClassName}}Settings";
 import { registerReducers } from "./store";
 
-const PLUGIN_NAME = "{{ name}}Plugin";
+const PLUGIN_NAME = "{{pluginClassName}}";
 
-export default class {{ name}}Plugin extends FlexPlugin {
+export default class {{pluginClassName}} extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
   }
