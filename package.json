@@ -15,9 +15,9 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "build:all": "yarn workspaces foreach -A -p build",
-    "lint:all": "yarn workspaces foreach -A -p lint",
-    "start:all": "yarn workspaces foreach -A -p start",
+    "build:all": "yarn workspaces foreach -A -p run build",
+    "lint:all": "yarn workspaces foreach -A -p run lint",
+    "start:all": "yarn workspaces foreach -A -p run start",
     "test:all": "yarn workspaces foreach -A -p run test"
   },
   "version": "0.0.1",
