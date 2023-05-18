@@ -6,7 +6,7 @@
     "build": "twilio flex:plugins:build",
     "start": "twilio flex:plugins:start",
     "deploy": "twilio flex:plugins:deploy --changelog 'automated deploy'",
-    "postinstall": "flex-plugin pre-script-check",
+    "postinstall": "bash ../../scripts/postinstall.sh && flex-plugin pre-script-check",
     "test": "twilio flex:plugins:test -- --silent",
     "test:u": "twilio flex:plugins:test -- -u"
   },
