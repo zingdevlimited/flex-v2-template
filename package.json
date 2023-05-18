@@ -11,8 +11,8 @@
     "test:u": "twilio flex:plugins:test -- -u"
   },
   "dependencies": {
-    "@build-now/core": "1.0.0",
-    "@build-now/serverless-helpers": "1.0.0",
+    "@zingdev/buildnow-core": "1.0.1",
+    "@zingdev/serverless-helpers": "1.0.2",
     "@reduxjs/toolkit": "^1.9.1",
     "@twilio-paste/core": "^15.3.0",
     "@twilio-paste/icons": "^9.4.3",
