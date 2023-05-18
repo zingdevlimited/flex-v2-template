@@ -30,11 +30,6 @@
       "source": "{{name}}-shared",
       "target": "/mnt/twilio-config",
       "type": "volume"
-    },
-    {
-      "source": "buildnow-v2",
-      "target": "/mnt/buildnow-v2",
-      "type": "volume"
     }
   ]
 }
